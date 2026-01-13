@@ -31,11 +31,6 @@ Actuellement en formation à **l'OFPPT CFPMS**, je me spécialise dans le dével
 
 <br />
 
-### 📱 Mobile
-<div align="center">
-  <img src="./static/readme/mobile-preview.png" alt="Aperçu Mobile" width="300" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-</div>
-
 ## ✨ Fonctionnalités Clés
 *   **Design Responsive** : Une expérience utilisateur fluide sur mobile, tablette et ordinateur.
 *   **Animations Fluides** : Utilisation de `CSSTransition` et `Styled Components` pour des transitions élégantes.
@@ -105,8 +100,6 @@ Si vous souhaitez cloner et lancer ce projet localement :
     npm run build
     ```
 
-## 📄 Crédits
-Ce projet est basé sur le design V4 open-source de [Brittany Chiang](https://github.com/bchiang7/v4), adapté et personnalisé par **Moukrim Meriem**.
 
 ---
 <div align="center">
