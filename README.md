@@ -1,40 +1,107 @@
 <div align="center">
-  <h1 align="center">Moukrim Meriem - Portfolio</h1>
+  <img src="./src/images/logo.png" alt="Logo" width="80" />
+  <br />
+  <h1 align="center">Portfolio de Meriem Moukrim</h1>
+  <p align="center">
+    <b>Développeuse Full Stack | Passionnée par l'innovation Web</b>
+  </p>
+  <p align="center">
+    <a href="https://github.com/meriem-moukrim">
+      <img src="https://img.shields.io/github/followers/meriem-moukrim?style=social" alt="GitHub Followers" />
+    </a>
+    <a href="https://www.linkedin.com/in/meriemmoukrim/">
+      <img src="https://img.shields.io/badge/LinkedIn-Connectez--vous-blue?style=flat&logo=linkedin" alt="LinkedIn" />
+    </a>
+  </p>
 </div>
 
-<p align="center">
-  Développeuse Full Stack passionnée, actuellement en formation à l'OFPPT CFPMS.
-  <br>
-  Ce portfolio présente mes projets, mes compétences et mon parcours. Construit avec Gatsby.
-</p>
+---
+
+## 🚀 À Propos
+Bienvenue sur le dépôt de mon portfolio personnel (V4). Ce projet est une vitrine de mes compétences, de mon parcours professionnel et des projets que j'ai réalisés. Il est conçu pour être une expérience interactive, fluide et esthétique.
+
+Actuellement en formation à **l'OFPPT CFPMS**, je me spécialise dans le développement Full Stack, avec un fort intérêt pour les interfaces modernes et réactives.
+
+## 📱 Aperçu
+Voici un aperçu de l'interface mobile, optimisée pour une navigation fluide :
+
+<div align="center">
+  <img src="./static/readme/mobile-preview.png" alt="Aperçu Mobile" width="300" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+</div>
+
+## ✨ Fonctionnalités Clés
+*   **Design Responsive** : Une expérience utilisateur fluide sur mobile, tablette et ordinateur.
+*   **Animations Fluides** : Utilisation de `CSSTransition` et `Styled Components` pour des transitions élégantes.
+*   **Mode Sombre** : Thème sombre par défaut pour une esthétique moderne "Cyberpunk/Sci-Fi".
+*   **Sections Dynamiques** :
+    *   **Hero** : Introduction animée avec liens sociaux.
+    *   **Expérience** : Navigation par onglets pour visualiser le parcours.
+    *   **Projets** : Mise en avant des travaux réalisés avec images et liens.
+    *   **Contact** : Formulaire et informations de contact directs.
 
 ## 🛠 Stack Technique
+Ce portfolio est construit avec des technologies modernes pour garantir performance et maintenabilité :
 
-*   **Front-end:** React, Gatsby, Styled Components
-*   **Back-end:** Node.js, Express (sur les projets)
-*   **Design:** CSS3, Animations (Anime.js, ScrollReveal)
+| Catégorie | Technologies |
+| :--- | :--- |
+| **Framework** | [Gatsby](https://www.gatsbyjs.com/) (React) |
+| **Langage** | JavaScript (ES6+) |
+| **Styles** | [Styled Components](https://styled-components.com/), CSS3 |
+| **Contenu** | Markdown (pour la gestion facile des projets/jobs) |
+| **Déploiement** | Netlify / GitHub Pages |
 
-## 🚀 Installation & Démarrage
+## 📂 Structure du Projet
+Voici une vue d'ensemble de l'organisation des fichiers :
 
-1.  Installer les dépendances :
-    ```sh
+```bash
+/
+├── content/          # Fichiers Markdown (Données des projets, expériences)
+│   ├── jobs/         # Expériences professionnelles
+│   ├── projects/     # Projets présentés
+│   └── ...
+├── src/
+│   ├── components/   # Composants React réutilisables (Layout, Nav, Sections...)
+│   ├── fonts/        # Polices locales
+│   ├── images/       # Images et logos du site
+│   ├── pages/        # Pages principales (index, 404)
+│   ├── styles/       # Styles globaux et thèmes
+│   ├── utils/        # Fonctions utilitaires et hooks
+│   └── config.js     # Configuration principale (liens, email, réseaux sociaux)
+├── static/           # Fichiers statiques publics (CV, images README)
+└── gatsby-config.js  # Configuration des plugins Gatsby
+```
+
+## 🚀 Installation et Démarrage Local
+
+Si vous souhaitez cloner et lancer ce projet localement :
+
+1.  **Cloner le dépôt :**
+    ```bash
+    git clone https://github.com/meriem-moukrim/-v4-main.git
+    cd -v4-main
+    ```
+
+2.  **Installer les dépendances :**
+    ```bash
     npm install
     ```
+    *(Note : Assurez-vous d'avoir Node.js installé)*
 
-2.  Lancer le serveur de développement :
-    ```sh
+3.  **Lancer le serveur de développement :**
+    ```bash
     npm run develop
     ```
+    Le site sera accessible sur `http://localhost:8000`.
 
-3.  Construire pour la production :
-    ```sh
+4.  **Construire pour la production :**
+    ```bash
     npm run build
     ```
 
-## 📄 Licence
-Ce projet est basé sur le design original V4 de Brittany Chiang.
+## 📄 Crédits
+Ce projet est basé sur le design V4 open-source de [Brittany Chiang](https://github.com/bchiang7/v4), adapté et personnalisé par **Moukrim Meriem**.
 
 ---
 <div align="center">
-  Fait avec ❤️ par Moukrim Meriem
+  <b>Merci de votre visite ! 👋</b>
 </div>
